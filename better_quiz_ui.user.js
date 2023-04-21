@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Taller and sticky right sidebar, secondary submit quiz button, scrollable attempt list
-// @author       You
+// @author       cm360
 // @match        https://canvas.vt.edu/courses/*/quizzes/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=vt.edu
 // @grant        none
