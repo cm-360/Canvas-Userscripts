@@ -65,6 +65,9 @@
         sidebar.appendChild(coursesList);
 
         const courses = ENV.STUDENT_PLANNER_COURSES;
+        courses.sort((a, b) => {
+            return a.shortName.localeCompare(b.shortName);
+        });
         for (const course of courses) {
             if (course.isFavorited) {
                 const courseLink = document.createElement("a");
