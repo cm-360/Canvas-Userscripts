@@ -12,7 +12,7 @@
 (function() {
     'use strict';
 
-    if (window.self === window.top) {
+    if (window.self !== window.top) {
         return;
     }
 
